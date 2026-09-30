@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    font-family: 'Roboto', 'Sans Serif';
+}
+
+body{
+    background-color: rgba(27, 104, 78, 0.589);
+    text-align: center;
+}
+
+main{
+    min-height: 100vh;
+}
+
+.inserir{
+    padding: 1rem;
+    margin: 1rem, auto, 1rem, auto;
+    box-shadow: 0 1rem 1rem rgba(0, 100, 100, 3);
+    border-radius: 2rem;
+}
+
+.formulario{
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.concluida {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.linha{
+    list-style: none;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.botao-remover{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    color: white;
+    background-color: black;
+}
+
+.botao-remover:hover{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    color: white;
+    font-style: bold;
+    background-color: rgb(255, 0, 0);
+}
+
+.botao-filtrar{
+    padding: 0.7rem;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(4, 79, 114);
+}
+
+.botao-filtrar:focus{
+    padding: 0.7rem;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    font-style: bold;
+    color: rgb(0, 0, 0);
+    background-color: rgb(167, 164, 211);
+}
+
+.botao-add{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    color: rgb(1, 23, 26);
+    background-color: rgb(255, 251, 251);
+}
+
+.botao-add:hover{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    font-style: bold;
+    color: rgb(252, 252, 252);
+    background-color: rgba(2, 139, 9, 0.541);
+}
+
+.cabeca {
+    background-image: linear-gradient(to right, rgba(14, 207, 182, 0.76), rgba(190, 11, 71, 0.733));
+    padding: 4vh;
+    font-size: 2rem;
+    text-align: left;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 1%;
+}
+
+.rodape {
+  background-image: linear-gradient(to right, rgba(14, 207, 182, 0.76), rgba(190, 11, 71, 0.733));
+  color: #f3f4f6;
+  padding: 1.5rem 1rem;
+  position: absolute;
+  width: 100%;
+}
+
